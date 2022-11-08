@@ -51,7 +51,7 @@ fs.rm(curDir, optionsDir, (err) => {
     });
     
 
-    const styles = path.join(__dirname, 'project-dist', 'styles.css');
+    const styles = path.join(__dirname, 'project-dist', 'style.css');
     const stream = fs.createWriteStream(styles, {encoding: 'utf8'});
 
     // Create styles.css
